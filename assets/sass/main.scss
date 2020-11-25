@@ -497,6 +497,18 @@
 				background-color: #1f232b;
 			}
 		}
+		&.style4 {
+			background: #e97770 url('images/overlay.png');
+			color: #fff;
+
+			&:hover {
+				background-color: #f98780;
+			}
+
+			&:active {
+				background-color: #d96760;
+			}
+		}
 	}
 
 /* List */
