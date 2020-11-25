@@ -1252,10 +1252,10 @@
 
 /* Medium */
 
-	#navPanel, #titleBar {
+/*	#navPanel, #titleBar {
 		display: none;
 	}
-
+*/
 	@include breakpoint('<=medium') {
 
 		/* Section/Article */
@@ -1393,7 +1393,7 @@
 				}
 			}
 
-			#navPanel {
+	/*		#navPanel {
 				@include vendor('backface-visibility', 'hidden');
 				@include vendor('transform', 'translateX(#{_size(navPanel) * -1})');
 				@include vendor('transition', ('transform #{_duration(navPanel)} ease'));
@@ -1473,7 +1473,7 @@
 			}
 
 	}
-
+/*
 /* Small */
 
 	@include breakpoint('<=small') {

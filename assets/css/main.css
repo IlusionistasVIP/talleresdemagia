@@ -407,7 +407,7 @@ input, select, textarea {
 				}
 
 		.row {
-			margin-top: -50px;
+			margin-top: 0px;
 			margin-left: -50px;
 		}
 
@@ -416,11 +416,11 @@ input, select, textarea {
 			}
 
 			.row.gtr-uniform {
-				margin-top: -50px;
+				margin-top: 0px;
 			}
 
 				.row.gtr-uniform > * {
-					padding-top: 50px;
+					padding-top: 0px;
 				}
 
 		.row.gtr-150 {
@@ -2062,7 +2062,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("../../images/banner.jpg") center center;
+		background: url("../images/Fondo\ Formulario.jpg") center center;
 		background-size: cover;
 		padding: 0;
 	}
@@ -2488,10 +2488,10 @@ input, select, textarea {
 
 /* Medium */
 
-	#navPanel, #titleBar {
+	/*#navPanel, #titleBar {
 		display: none;
 	}
-
+*/
 	@media screen and (max-width: 980px) {
 
 		/* Section/Article */
@@ -2651,7 +2651,7 @@ input, select, textarea {
 						background-color: rgba(92, 95, 103, 0.75);
 					}
 
-			#navPanel {
+			/*#navPanel {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2745,7 +2745,7 @@ input, select, textarea {
 			}
 
 	}
-
+/*
 /* Small */
 
 	@media screen and (max-width: 736px) {

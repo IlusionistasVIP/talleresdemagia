@@ -37,8 +37,8 @@
 		// Title Bar.
 			$(
 				'<div id="titleBar">' +
-					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title">' + $('#logo h1').html() + '</span>' +
+				//	'<a href="#navPanel" class="toggle"></a>' +
+				//	'<span class="title">' + $('#logo h1').html() + '</span>' +
 				'</div>'
 			)
 				.appendTo($body);
@@ -64,3 +64,9 @@
 				});
 
 })(jQuery);
+
+function desplazamiento(){
+	document.getElementById('formulario').scrollIntoView({
+		behavior: 'smooth'
+	  });
+}
